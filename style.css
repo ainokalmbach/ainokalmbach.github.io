@@ -12,6 +12,13 @@ h1 {
   font-weight: 700;
 }
 
+.profile {
+  width: 180px;        /* change size */
+  border-radius: 50%;  /* remove if you want square */
+  margin-bottom: 20px;
+}
+
+
 .cv-item {
   display: flex;
   justify-content: space-between;
