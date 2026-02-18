@@ -39,14 +39,14 @@ html { scroll-behavior: smooth; }
 /* layout */
 .layout {
   display: flex;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 48px auto;
   padding: 0 20px;
 }
 
 /* left column */
 .sidebar {
-  width: 320px;
+  width: 260px;
   margin-right: 60px;
 }
 
