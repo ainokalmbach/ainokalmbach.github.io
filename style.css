@@ -35,3 +35,42 @@ hr {
 
 .small { color: #666; font-size: 14px; }
 html { scroll-behavior: smooth; }
+
+/* layout */
+.layout {
+  display: flex;
+  max-width: 1000px;
+  margin: 48px auto;
+  padding: 0 20px;
+}
+
+/* left column */
+.sidebar {
+  width: 220px;
+  margin-right: 60px;
+}
+
+.sidebar a {
+  display: block;
+  margin: 8px 0;
+  color: #800020;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: #a63a50;
+}
+
+/* right column */
+.content {
+  flex: 1;
+}
+
+/* spacing */
+section { margin-bottom: 60px; }
+
+/* mobile */
+@media (max-width: 700px) {
+  .layout { flex-direction: column; }
+  .sidebar { margin-bottom: 30px; }
+}
