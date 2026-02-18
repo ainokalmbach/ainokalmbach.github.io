@@ -13,7 +13,7 @@ h1 {
 }
 
 .profile {
-  width: 180px;        /* change size */
+  width: 240px;        /* change size */
   margin-bottom: 20px;
 }
 
@@ -127,14 +127,8 @@ section { margin-bottom: 60px; }
 
 /* mobile */
 @media (max-width: 700px) {
-  .layout {
-    flex-direction: column;
-  }
-
   .sidebar {
-    position: static;   /* disables sticky */
-    top: auto;
-    margin-bottom: 30px;
+    position: static !important;
+    top: auto !important;
   }
 }
-
