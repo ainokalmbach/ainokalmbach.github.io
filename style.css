@@ -57,6 +57,11 @@ html { scroll-behavior: smooth; }
   text-decoration: none;
 }
 
+.sidebar h1 {
+  font-size: 28px;   /* try 24–32px */
+  margin-bottom: 6px;
+}
+
 .sidebar a:hover {
   color: #a63a50;
 }
