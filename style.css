@@ -12,6 +12,19 @@ h1 {
   font-weight: 700;
 }
 
+.cv-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 6px 0;
+}
+
+.cv-year {
+  color: #666;
+  white-space: nowrap;
+  margin-left: 20px;
+}
+
+
 .sub { color: #666; }
 
 nav a {
