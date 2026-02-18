@@ -127,6 +127,14 @@ section { margin-bottom: 60px; }
 
 /* mobile */
 @media (max-width: 700px) {
-  .layout { flex-direction: column; }
-  .sidebar { margin-bottom: 30px; }
+  .layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    position: static;   /* disables sticky */
+    top: auto;
+    margin-bottom: 30px;
+  }
 }
+
