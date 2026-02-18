@@ -39,7 +39,7 @@ html { scroll-behavior: smooth; }
 /* layout */
 .layout {
   display: flex;
-  max-width: 1600px;
+  max-width: 2000px;
   margin: 48px auto;
   padding: 0 20px;
 }
