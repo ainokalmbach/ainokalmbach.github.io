@@ -58,7 +58,7 @@ html { scroll-behavior: smooth; }
 }
 
 .sidebar h1 {
-  font-size: 28px;   /* try 24–32px */
+  font-size: 32px;   /* try 24–32px */
   margin-bottom: 6px;
 }
 
