@@ -105,6 +105,11 @@ html { scroll-behavior: smooth; }
   position: sticky;
   top: 40px;
   height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* centers items horizontally */
+  text-align: center;    /* centers text */
 }
 
 .sidebar h1 {
