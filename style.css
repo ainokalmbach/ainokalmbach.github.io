@@ -32,6 +32,42 @@ hr {
   border-top: 1px solid #e6e6e6;
 }
 
+/* nice “subtitle” headings */
+.pub-section{
+  font-size: 18px;
+  font-weight: 700;     /* bold */
+  margin: 28px 0 10px;
+}
+
+/* lists */
+.pub-list{
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 18px;
+}
+
+.pub-list li{
+  margin: 10px 0;
+}
+
+/* small text */
+.coauthors, .year, .note{
+  color: #666;
+  font-size: 14px;
+  margin-left: 6px;
+}
+
+a {
+  color: #800020;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a63a50;
+  text-decoration: underline;
+}
+
+
 .small { color: #666; font-size: 14px; }
 html { scroll-behavior: smooth; }
 
@@ -49,20 +85,9 @@ html { scroll-behavior: smooth; }
   margin-right: 60px;
 }
 
-.sidebar a {
-  display: block;
-  margin: 8px 0;
-  color: #800020;
-  text-decoration: none;
-}
-
 .sidebar h1 {
   font-size: 32px;   /* try 24–32px */
   margin-bottom: 6px;
-}
-
-.sidebar a:hover {
-  color: #a63a50;
 }
 
 /* right column */
