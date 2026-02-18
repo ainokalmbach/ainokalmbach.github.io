@@ -100,9 +100,12 @@ html { scroll-behavior: smooth; }
 }
 
 /* left column */
-.sidebar {
-  width: 260px;
-  margin-right: 60px;
+.sidebar { 
+  width: 460px;
+  margin-right: 80px;
+  position: sticky;
+  top: 40px;
+  height: fit-content;
 }
 
 .sidebar h1 {
